@@ -15,8 +15,19 @@
   "extends": ["airbnb"],
   "plugins": ["import", "react-hooks"],
   "rules": {
+    // fixation
     "jsx-a11y/label-has-associated-control": "off",
     "jsx-a11y/anchor-is-valid": "off",
-    "no-undef": "off"
+    "react/no-array-index-key": 1,
+    "react/jsx-one-expression-per-line": "off",
+    "no-undef": "off",
+    "max-len": "off",
+    "linebreak-style": "off",
+    "no-underscore-dangle": "off",
+    "consistent-return": "off",
+    "no-nested-ternary": "off",
+    "operator-linebreak": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/forbid-prop-types": "off"
   }
 }

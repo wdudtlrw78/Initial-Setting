@@ -46,13 +46,6 @@ const config = {
   ],
 
   devServer: {
-    historyApiFallback: {
-      open: true,
-      overlay: true,
-      rewrites: [{ from: /./, to: '404.html' }],
-    },
-
-    host: 'localhost',
     port: 3333,
     hot: true,
     devMiddleware: { publicPath: '/dist/' },

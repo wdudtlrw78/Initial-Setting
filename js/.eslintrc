@@ -12,6 +12,13 @@
   "extends": ["airbnb"],
   "plugins": ["import"],
   "rules": {
-    "no-undef": "off"
+    // fixation
+    "no-undef": "off",
+    "max-len": "off",
+    "linebreak-style": "off",
+    "no-underscore-dangle": "off",
+    "consistent-return": "off",
+    "no-nested-ternary": "off",
+    "operator-linebreak": "off"
   }
 }
