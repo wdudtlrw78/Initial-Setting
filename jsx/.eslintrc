@@ -20,7 +20,6 @@
     "jsx-a11y/anchor-is-valid": "off",
     "react/no-array-index-key": 1,
     "react/jsx-one-expression-per-line": "off",
-    "no-undef": "off",
     "max-len": "off",
     "linebreak-style": "off",
     "no-underscore-dangle": "off",

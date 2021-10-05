@@ -13,7 +13,6 @@
   "plugins": ["import"],
   "rules": {
     // fixation
-    "no-undef": "off",
     "max-len": "off",
     "linebreak-style": "off",
     "no-underscore-dangle": "off",
